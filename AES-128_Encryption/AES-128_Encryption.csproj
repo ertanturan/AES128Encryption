@@ -2,10 +2,11 @@
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>AES_128_Encryption</RootNamespace>
     <ApplicationIcon />
     <StartupObject />
+    <Configurations>Debug;Release</Configurations>
   </PropertyGroup>
 
 </Project>
