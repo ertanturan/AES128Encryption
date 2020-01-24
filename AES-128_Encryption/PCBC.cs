@@ -1,6 +1,6 @@
 ﻿namespace AES_128_Encryption
 {
-    class PCBC
+    public class PCBC
     {
         private CBC _baseCbc;
         private string _keyValue;
