@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Security.Cryptography;
 using System.Text;
-
-namespace AES_128_Encryption
+namespace AES128Pack
 {
     public class CBC
     {
