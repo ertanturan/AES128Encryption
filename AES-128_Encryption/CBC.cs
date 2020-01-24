@@ -6,6 +6,7 @@ namespace AES_128_Encryption
 {
     public class CBC
     {
+
         private string _keyValue;
         private string _iVValue;
 
@@ -14,6 +15,7 @@ namespace AES_128_Encryption
             _keyValue = keyValue;
             _iVValue = IVValue;
         }
+
         public string Encrypt(string encryptStr)
         {
             byte[] keyArray = UTF8Encoding.UTF8.GetBytes(_keyValue);
@@ -83,5 +85,6 @@ namespace AES_128_Encryption
             return UTF8Encoding.UTF8.GetString(resultArray);
 
         }
+
     }
 }
