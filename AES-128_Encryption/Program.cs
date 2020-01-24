@@ -17,51 +17,13 @@ namespace AES_128_Encryption
             Console.WriteLine("ORIGINAL : " + original);
             Console.WriteLine("ENCRYPTED : " + encrypted);
             Console.WriteLine("DECRYPTED : " + decrypted);
-
-            ////Display the original data and the decrypted data.
-            //Console.WriteLine("Original:   {0}", original);
-            ////Console.WriteLine("Encrypted :   {0}", encrypted);
-            ////Console.WriteLine("Round Trip: {0}", roundtrip);
-
-            //Console.WriteLine(" ");
-            //int b = 100 ^ 33;
-            //Console.WriteLine(GetIntBinaryString(100));
-            //Console.WriteLine(GetIntBinaryString(33));
-            //Console.WriteLine(GetIntBinaryString(b));
+            Console.WriteLine(" ");
+            Console.WriteLine(XOR.Gate(100, 33));
 
             Console.Read();
 
         }
 
-
-
-        static string GetIntBinaryString(int n)
-        {
-            char[] b = new char[32];
-            int pos = 31;
-
-            for (int i = 0; i < 32; i++)
-            {
-                if ((n & (1 << i)) != 0)
-                {
-                    b[pos] = '1';
-                }
-                else
-                {
-                    b[pos] = '0';
-                }
-                pos--;
-            }
-
-            return new string(b);
-        }
-
-        private static string XOR()
-        {
-
-
-            return " ";
-        }
     }
 }
 
