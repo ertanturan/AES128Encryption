@@ -1,25 +1,3 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1000
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AES128Pack", "AES128Pack\AES128Pack.csproj", "{85F384E5-0381-46BF-97FE-168192D60151}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{85F384E5-0381-46BF-97FE-168192D60151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{85F384E5-0381-46BF-97FE-168192D60151}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{85F384E5-0381-46BF-97FE-168192D60151}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{85F384E5-0381-46BF-97FE-168192D60151}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {123BC6DD-7348-494C-A498-24FB4578F5C6}
-	EndGlobalSection
-EndGlobal
+version https://git-lfs.github.com/spec/v1
+oid sha256:8924864af41bd976c7582292e5459302cf8b898ef04f4d6be5d8fa5b0a70a1ab
+size 1104
