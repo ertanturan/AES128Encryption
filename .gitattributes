@@ -1,5 +1,2 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-AES128Pack filter=lfs diff=lfs merge=lfs -text
-AES128Pack.sln filter=lfs diff=lfs merge=lfs -text
-README.md filter=lfs diff=lfs merge=lfs -text
